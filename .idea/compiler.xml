@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="wander-backend" target="1.5" />
+      <module name="wander-backend" target="1.8" />
       <module name="wonder-backend" target="1.5" />
     </bytecodeTargetLevel>
   </component>
