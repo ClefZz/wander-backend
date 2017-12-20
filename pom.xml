@@ -7,7 +7,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>wonder-server</name>
+    <name>wander-server</name>
 
     <properties>
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
