@@ -4,10 +4,8 @@ cache:
   directories:
     - .autoconf
     - $HOME/.m2
-before_install:
-  - chmod +x ./mvnw
 before_deploy:
-  - ./mvnw package -Dmaven.test.skip=true
+  - mvn package -Dmaven.test.skip=true
   - mv $TRAVIS_BUILD_DIR/target/*.jar $/TRAVIS_BUILD/target/wander-backend.jar
 deploy:
   - provider: releases
